@@ -1,19 +1,12 @@
-
 package com.tiernoparla.ejercicios_elementales;
 
 public class Ejercicios_elementales {
     public static void main(String[] args) {
-        
-        //pintar numeros del numero 1 al 10 usamos for variables y bucles
-        for (int i = 2; i < 11; i = i + 2){
-            System.out.println(i);
-        }//cierro for
-        
-        
-        
-        
-        
-        
-        
-    } //fin main
-} // fin Ejercicios_elementales
+      // pintear pares del 1 al 1o V2
+      for (int i = 1; i <= 10; i++){
+          if(i%2 == 0){
+              System.out.println(i);
+          }//Cierro if
+      }//cierro for
+      }//cierro main
+    }
